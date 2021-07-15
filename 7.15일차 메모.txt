@@ -1,0 +1,58 @@
+조건문: True/False를 구분할 수 있는 문장
+메서드=function(함수)
+함수: 특정한 용도의 동작하는 코드를 한 곳에 모아 놓은 것
+
+git: 저장공간
+
+git 작업흐름
+
+작업(수정)한 파일
+          |  add
+커밀할 목록
+          | commit
+쌓인 커밋들
+          | push
+      GitHub
+
+add: 커밋할 목록에 추가
+commit : 커밋(create a snapshot) 만들기
+push : 현재까지의 역사(commits)가 기록되어 있는 곳에 새로
+         새로 생성한 커밋들 반영하기
+
+a=int(input())
+if a<=100000:
+    print('#'*a)
+
+a=int(input())
+c=0
+if 0<a<10000:
+    b=list(str(a))
+for i in b:
+       c+=int(i)
+print(c)       
+
+저장하고자 하는 폴더에 들어가서 
+빈공간에 오른쪽 버튼을 누르면 git bash here확인(제대로 설치했을시)
+
+git init
+
+git --version
+
+git status
+
+git add.
+
+git config --global user.name cymon
+
+git config --global user.email zkgkthsus@naver.com
+
+git commit -m "fist commit by zkgkthsus"
+
+f-string : string interpolation
+ex) print(f"{}")
+
+requests.get
+
+api=Application Programming  Interface
+
+json : javascript object notaion(데이터만 주고받기 위한 표기법)
